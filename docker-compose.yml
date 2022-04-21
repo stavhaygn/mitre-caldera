@@ -9,6 +9,7 @@ services:
         TZ: "UTC" #TZ sets timezone for ubuntu setup
         WIN_BUILD: "true" #WIN_BUILD is used to enable windows build in sandcat plugin
     image: caldera:latest
+    container_name: caldera
     ports:
       - "8888:8888"
       - "8443:8443"
